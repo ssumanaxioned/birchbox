@@ -63,7 +63,7 @@ body{
 a{
   text-decoration: none;
   color: black;
-  font-weight: normal;
+  font-weight: 600;
   font-size: 16px;
 }
 h2{
@@ -192,7 +192,6 @@ header nav ul li a{
 	padding: 10px 20px;
 	color: white;
 }
-<<<<<<< HEAD
 .learn{
 	background: #f4f9fc;
 }
@@ -216,5 +215,38 @@ header nav ul li a{
 	text-transform: uppercase;
 	color: #f4f9fc;
 }
-=======
->>>>>>> 7b1e4ccf85914bf26a7151303d1cf3e8240ac10c
+.learn-btn a:first-child{
+	margin-right: 40px;
+}
+.first .wrapper{
+	padding: 0 250px;
+	padding-top: 100px;
+	text-align: center;
+}
+.first .wrapper h2{
+	text-transform: capitalize;
+	margin-bottom: 50px;
+}
+.first .wrapper ul{
+	margin: 50px 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.first .wrapper ul li img{
+	height: 300px;
+	width: auto;
+	margin-bottom: 20px;
+}
+.first .wrapper a{
+	padding: 20px 100px;
+	border: 1px solid gray;
+	text-transform: uppercase;
+}
+.end{
+	width: 100%;
+	height: 5px;
+	background: #ececb0;
+	margin-top: 100px;
+}
