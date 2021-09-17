@@ -59,12 +59,13 @@ body{
   box-sizing: border-box;
   scroll-behavior: smooth;
   letter-spacing: 1px;
+	line-height: normal;
 }
 a{
   text-decoration: none;
   color: black;
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 700;
+  font-size: 18px;
 }
 h2{
 	font-weight: bold;
@@ -165,7 +166,7 @@ header nav ul li a{
 	background: #d3ebf5;
 }
 .banner .wrapper{
-	padding: 20px 200px;
+	padding: 30px 200px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -181,12 +182,12 @@ header nav ul li a{
 }
 .banner-content h2{
 	font-family: 'Satisfy', cursive;
-	font-size: 98px;
+	font-size: 94px;
 }
 .banner .wrapper img{
 	flex: 0.65;
 	height: 500px;
-	object-fit: cover;
+	object-fit: contain;
 }
 .banner-content a{
 	background-color: #5B47A6;
@@ -301,4 +302,136 @@ header nav ul li a{
 .forth .wrapper li img{
 	width: 90%;
 	height: 50px;
+}
+footer{
+	background: var(--bg);
+}
+footer .wrapper h1{
+	padding: 50px 250px;
+}
+.footer-content{
+	padding: 0 250px;
+	border-bottom: 1px solid gray;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.footer-content ul{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+.footer-1{
+	flex: 0.3;
+	font-weight: 600;
+	font-size: 18px;
+}
+.footer-1 li{
+	display: block;
+	margin-bottom: 45px;
+}
+.footer-1 a{
+	text-transform: capitalize;
+}
+.footer-2{
+	flex: 0.3;
+}
+.footer-2 li{
+	display: block;
+	margin-bottom: 45px;
+}
+.footer-3{
+	flex: 0.4;
+	width: 100%;
+}
+
+.footer-3 p{
+	font-weight: 600;
+}
+.footer-3 h2{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.flag{
+	width: 30px;
+	height: 16px;
+	margin-right: 10px;
+}
+.footer-form{
+	width: 450px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.footer-form input{
+	flex: 0.7;
+	width: 100%;
+	padding: 30px 10px;
+	border: none;
+	text-transform: uppercase;
+}
+.footer-form button{
+	flex: 0.3;
+	width: 100%;
+	padding: 30px 10px;
+	border: none;
+	background: black;
+	color: white;
+	text-transform: uppercase;
+}
+.yellow{
+	background: yellow;
+	font-weight: 600;
+	font-size: 18px;
+	margin: 50px 0;
+}
+.app-ctn{
+	margin-top: 30px;
+	display: inline-flex;
+	align-items: center;
+}
+.app-ctn a{
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 50px;
+}
+.apple::before{
+	font-family: "Font Awesome 5 Brands";
+	font-weight: 900;
+	font-size: 32px;
+	content: "\f179";
+	margin-right: 10px;
+}
+.android{
+	height: 32px;
+	margin-right: 10px;
+}
+.footer-end{
+	padding: 20px 250px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.social::before{
+	font-family: "Font Awesome 5 Brands";
+	font-weight: 900;
+	font-size: 28px;
+}
+.facebook::before{
+	content: "\f39e";
+}
+.twitter::before{
+	content: "\f099";
+}
+.pinterest::before{
+	content: "\f0d2";
+}
+.youtube::before{
+	content: "\f167";
+}
+.instagram::before{
+	content: "\f16d";
 }
