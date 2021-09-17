@@ -69,6 +69,7 @@ a{
 h2{
 	font-weight: bold;
 	font-size: 36px;
+	text-transform: capitalize;
 }
 p{
 	font-weight: 500;
@@ -214,17 +215,17 @@ header nav ul li a{
 	padding: 20px 50px;
 	text-transform: uppercase;
 	color: #f4f9fc;
+	border: none;
 }
 .learn-btn a:first-child{
 	margin-right: 40px;
 }
-.first .wrapper{
+.first, .second, .third, .forth, .fifth .wrapper{
 	padding: 0 250px;
-	padding-top: 100px;
+	padding-top: 90px;
 	text-align: center;
 }
 .first .wrapper h2{
-	text-transform: capitalize;
 	margin-bottom: 50px;
 }
 .first .wrapper ul{
@@ -239,14 +240,65 @@ header nav ul li a{
 	width: auto;
 	margin-bottom: 20px;
 }
-.first .wrapper a{
+.button{
 	padding: 20px 100px;
 	border: 1px solid gray;
 	text-transform: uppercase;
 }
 .end{
+	display: block;
 	width: 100%;
 	height: 5px;
 	background: #ececb0;
 	margin-top: 100px;
+}
+.second .wrapper p{
+	margin: 30px 0;
+}
+.second .wrapper ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.second .wrapper ul li{
+	flex: 0.33;
+	width: 100%;
+}
+.second .wrapper ul li img{
+	width: 100%;
+}
+.second .wrapper ul li h3{
+	font-weight: bolder;
+	font-size: 24px;
+	text-transform: capitalize;
+}
+.third .wrapper h2{
+	margin-bottom: 50px;
+}
+.third .wrapper img{
+	width: 100%;
+	height: auto;
+	margin-bottom: 50px;
+}
+.third .wrapper a{
+	padding: 20px 70px;
+}
+.forth .wrapper h2{
+	margin-bottom: 50px;
+}
+.forth .wrapper ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50px;
+}
+.forth .wrapper li{
+	flex: 0.25;
+}
+.forth .wrapper li img{
+	width: 90%;
+	height: 50px;
 }
