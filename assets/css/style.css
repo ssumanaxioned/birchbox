@@ -51,6 +51,7 @@ table {
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 body{
   font-family: "Roboto", sans-serif;
   margin: 0;
@@ -85,8 +86,11 @@ header{
 .log li:last-child{
   margin-left: 20px;
 }
-header nav{
+header .wrapper nav{
   padding: 20px 250px;
+}
+header .wrapper nav h1{
+	flex-basis: 20%;
 }
 header nav ul{
   display: flex;
@@ -112,12 +116,12 @@ header nav ul li a{
 }
 .cart{
   width: 25px;
-  margin-left: -25px;
+	margin-left: -25px;
 }
 .search{
   width: 300px;
   padding: 10px;
-  border: 1px solid gray;
+  border: 1px solid #E7DBCF;
   border-radius: 50px;
   background: white;
   display: flex;
@@ -150,4 +154,36 @@ header nav ul li a{
 .right::before{
   content: "\f054";
   color: #97B6BB;
+}
+.banner{
+	background: #d3ebf5;
+}
+.banner .wrapper{
+	padding: 20px 200px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.banner-content{
+	flex: 0.35;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	gap:50px;
+}
+.banner-content h2{
+	font-family: 'Satisfy', cursive;
+	font-size: 98px;
+}
+.banner .wrapper img{
+	flex: 0.65;
+	height: 500px;
+	object-fit: cover;
+}
+.banner-content a{
+	background-color: #5B47A6;
+	padding: 10px 20px;
+	color: white;
 }
