@@ -66,6 +66,14 @@ a{
   font-weight: normal;
   font-size: 16px;
 }
+h2{
+	font-weight: bold;
+	font-size: 36px;
+}
+p{
+	font-weight: 500;
+	font-size: 18px;
+}
 header{
   background: var(--bg);
 }
@@ -86,11 +94,8 @@ header{
 .log li:last-child{
   margin-left: 20px;
 }
-header .wrapper nav{
+header nav{
   padding: 20px 250px;
-}
-header .wrapper nav h1{
-	flex-basis: 20%;
 }
 header nav ul{
   display: flex;
@@ -116,7 +121,7 @@ header nav ul li a{
 }
 .cart{
   width: 25px;
-	margin-left: -25px;
+  margin-left: -25px;
 }
 .search{
   width: 300px;
@@ -186,4 +191,27 @@ header nav ul li a{
 	background-color: #5B47A6;
 	padding: 10px 20px;
 	color: white;
+}
+.learn{
+	background: #f4f9fc;
+}
+.learn .wrapper{
+	padding: 50px 300px;
+	text-align: center;
+}
+.learn .wrapper h2{
+	margin-bottom: 20px;
+}
+.learn .wrapper p{
+	line-height: 25px;
+}
+.learn-btn{
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+.learn-btn a{
+	background: #f8a883;
+	padding: 20px 50px;
+	text-transform: uppercase;
+	color: #f4f9fc;
 }
