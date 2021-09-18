@@ -382,7 +382,7 @@ header nav ul li a{
 	content: "\f053";
 	color: lightgray
 }
-.right::before{
+.feed-right .right::before{
 	font-family: "Font Awesome 5 Free";
 	font-weight: 900;
 	font-size: 42px;
@@ -525,4 +525,53 @@ footer .wrapper h1{
 }
 .instagram::before{
 	content: "\f16d";
+}
+@media (max-width:1400px) {
+	.log-ctn{
+		padding: 10px 150px;
+	}
+	header nav{
+	  padding: 20px 150px;
+	}
+	.banner .wrapper{
+		padding: 30px 120px;
+	}
+	.first, .second, .third, .forth, .fifth .wrapper{
+		padding: 0 150px;
+		padding-top: 90px;
+	}
+	.fifth .wrapper{
+		padding-bottom: 100px;
+	}
+	.footer-content{
+		padding: 0 150px;
+	}
+	.footer-end{
+		padding: 20px 150px;
+	}
+
+}
+@media (max-width: 1200px){
+.log-ctn{
+	padding: 10px 100px;
+}
+header nav{
+	padding: 20px 100px;
+}
+.banner .wrapper{
+	padding: 30px 90px;
+}
+.first, .second, .third, .forth, .fifth .wrapper{
+	padding: 0 100px;
+	padding-top: 90px;
+}
+.fifth .wrapper{
+	padding-bottom: 100px;
+}
+.footer-content{
+	padding: 0 100px;
+}
+.footer-end{
+	padding: 20px 100px;
+}
 }
