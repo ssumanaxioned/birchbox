@@ -303,6 +303,97 @@ header nav ul li a{
 	width: 90%;
 	height: 50px;
 }
+.fifth .wrapper{
+	padding-bottom: 100px;
+}
+.fifth .wrapper .feed-ctn{
+	margin-top: 80px;
+	margin-bottom: 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.feed-left{
+	flex: 0.25;
+}
+.feed-left h3{
+	font-weight: 600;
+	font-size: 24px;
+}
+.star-ctn{
+	display: block;
+	margin: 20px 0;
+}
+.star{
+	background: green;
+	padding: 6px;
+}
+.star::before{
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	font-size: 20px;
+	content: "\f005";
+	color: white;
+}
+#not{
+	background: lightgray;
+}
+.feed-right{
+	flex: 0.75;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.feed-right ul {
+	flex: 0.45;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	text-align: left;
+}
+.top{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+.dark{
+	background: darkgreen;
+	padding: 4px;
+}
+.dark::before{
+	font-size: 12px;
+}
+.bold{
+	font-weight: 600;
+}
+.space{
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+.left::before{
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	font-size: 42px;
+	content: "\f053";
+	color: lightgray
+}
+.right::before{
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	font-size: 42px;
+	content: "\f054";
+	color: gray;
+}
+.fifth .wrapper .button{
+	background: #f8a883;
+	color: white;
+	border: none;
+}
 footer{
 	background: var(--bg);
 }
